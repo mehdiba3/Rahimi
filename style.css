@@ -446,7 +446,7 @@ a:focus-visible, button:focus-visible{
    SECTION 7 — SEO GRID
    ========================================================= */
 .seo-grid{
-  display:grid; grid-template-columns:repeat(4,1fr); gap:18px;
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:18px;
 }
 .seo-item{
   background:#fff; border-radius:18px; padding:28px 16px;
@@ -500,7 +500,7 @@ a:focus-visible, button:focus-visible{
    SECTION 10 — WHY US
    ========================================================= */
 .why-grid{
-  display:grid; grid-template-columns:repeat(4,1fr); gap:18px;
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:18px;
 }
 .why-card{
   background:#fff; border:1px solid var(--border); border-radius:20px;
